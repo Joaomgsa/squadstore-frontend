@@ -1,4 +1,5 @@
 import { Route,Routes } from "react-router-dom";
+import Home from "../pages/Home";
 import Categories from "../pages/Categories";
 
 export default function AllRoutes(){
