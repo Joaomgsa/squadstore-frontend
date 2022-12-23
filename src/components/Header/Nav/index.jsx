@@ -1,5 +1,6 @@
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {Link} from 'react-router-dom';
+import './index.css';
 
 
 export default function Nav(){
@@ -21,7 +22,7 @@ export default function Nav(){
     
     return(
         <>
-        <div>
+        <div className='nav'>
         <Link to="/">
             <GiHamburgerMenu size={32}/>
         </Link>

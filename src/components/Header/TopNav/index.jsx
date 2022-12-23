@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom';
 import {GrLocation} from 'react-icons/gr';
 import {RiShoppingCartLine} from 'react-icons/ri';
 import { useState } from 'react';
+import './index.css';
 
 export default function TopNav(){
 
     const[typedProduct, setTypedProduct] = useState('');
 
     return(
-        <>
-        <div>
+        <div className='topNav'>
             <ul>
                <li>
                     <Link to="/">
@@ -42,6 +42,5 @@ export default function TopNav(){
                </li>
             </ul>
         </div>
-        </>
     );
 }

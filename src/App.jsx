@@ -1,11 +1,10 @@
-import logo from './assets/img/logo.png';
-import Categories from './pages/Categories';
-import GlobalStyles from './styles/global';
+import './styles/index.css';
+import AllRoutes from "./routes";
 
 
 function App() {
   return (
-    <h1> Primeiro teste</h1>
+    <AllRoutes />
     );
 }
 
