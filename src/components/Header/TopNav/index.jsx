@@ -19,7 +19,7 @@ export default function TopNav(){
                </li> 
                <li>
                     <Link to="/users">
-                        <GrLocation size={32} /> selecione o seu endereço.
+                        <GrLocation size={32} value={{color:"white"}}/> selecione o seu endereço.
                     </Link>
                </li>
                <li>
@@ -37,7 +37,7 @@ export default function TopNav(){
                </li>
                <li>
                 <Link to="/cart">
-                    <RiShoppingCartLine size={32}/>
+                    <RiShoppingCartLine size={32} value={{color:"white"}}/>
                 </Link>
                </li>
             </ul>

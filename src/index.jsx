@@ -4,6 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 
 import App from './App';
 import Header from './components/Header';
+import Home from './pages/Home';
 
 
 
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Header/>
+      <Home/>
       <App />
     </BrowserRouter>
   </React.StrictMode>
