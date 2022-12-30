@@ -20,17 +20,18 @@ export default function TopNav(){
                </li> 
                <li>
                     <Link to="/users">
-                    <IconContext.Provider value={{ color: "white"}}>
                         <div>
+                            <IconContext.Provider value={{ color: "white"}}>
                             <GrLocation size={32}/> selecione o seu endereço.
+                            </IconContext.Provider>
                         </div>
-                    </IconContext.Provider>
+                    
                     </Link>
                </li>
                <li>
                 <div>
                     <form>
-                        <input 
+                        <input width={300}
                         value={typedProduct}
                         placeholder="Digite o produto"
                         />

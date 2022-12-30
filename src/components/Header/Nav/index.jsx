@@ -23,10 +23,7 @@ export default function Nav(){
     return(
         <>
         <div className='nav'>
-        <Link to="/">
-            <GiHamburgerMenu size={32}/>
-        </Link>
-           <MenuList labels={labels} /> 
+        <MenuList labels={labels} /> 
         </div>
         </>
     )
