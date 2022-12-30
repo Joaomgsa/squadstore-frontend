@@ -8,7 +8,7 @@ export default function Nav(){
     function MenuList(props){
         const labels = props.labels;
         const listLabels = labels.map((label)=>
-        <li key={label}>
+        <li className="navItens" key={label}>
             <Link to={"/"}>{label}</Link>
         </li>
         );
@@ -18,7 +18,7 @@ export default function Nav(){
             </ul>
         );
         }
-        const labels = ['Mais Vendidos', 'Ofertas do Dia', 'Novidades', 'Ajuda ao Cliente'];
+        const labels = ['Mais Vendidos', 'Ofertas do Dia', 'Novidades','Livros','Eletronicos', 'Ajuda ao Cliente'];
     
     return(
         <>
