@@ -22,7 +22,7 @@ export default function ProductsCards() {
     
     return(
         <>
-        <div>
+        <div className='productsCards'>
         <ProductCardsList labels={labels} />
         </div>
         </>
