@@ -24,6 +24,9 @@ export default function ProductsCards() {
         <>
         <div className='productsCards'>
         <ProductCardsList labels={labels} />
+        <ul>
+            <li className="productsCardsItens">testes</li>
+        </ul>
         </div>
         </>
     )
