@@ -2,7 +2,7 @@
 
 ## Instruções de Instalação : <code> npm start</code>
 
-## Screenshots: Include screenshots of the project in action to give users a better sense of what it looks like.
+## Screenshots: 
 
 
 ## Contato: caso queira informar algo ou apenas manter contato pode enviar um email para joaomgsa@gmail.com
